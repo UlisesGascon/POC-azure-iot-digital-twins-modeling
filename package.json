@@ -7,19 +7,28 @@
   "scripts": {
     "lint": "standard",
     "lint:fix": "standard --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cross-env NODE_ENV=test && jest --detectOpenHandles --forceExit  --verbose",
+    "test:coverage": "cross-env NODE_ENV=test && jest --detectOpenHandles --forceExit --verbose --coverage",
+    "test:watch": "cross-env NODE_ENV=test && jest --detectOpenHandles --forceExit --verbose --watchAll"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/UlisesGascon/POC-azure-iot-digital-twins-modeling.git"
   },
   "author": "Ulises Gascon",
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/UlisesGascon/POC-azure-iot-digital-twins-modeling/issues"
   },
   "homepage": "https://github.com/UlisesGascon/POC-azure-iot-digital-twins-modeling#readme",
   "devDependencies": {
+    "cross-env": "7.0.3",
+    "jest": "29.4.1",
     "standard": "17.0.0"
   }
 }
