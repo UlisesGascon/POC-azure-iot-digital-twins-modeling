@@ -1,0 +1,27 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:com:example:thegenericmachine;1",
+    "@type": "Interface",
+    "displayName": "thegenericmachine",
+    "contents": [
+      {
+        "@type": "Telemetry",
+        "name": "temperature",
+        "schema": "double"
+      },
+      {
+        "@type": "Property",
+        "name": "deviceStatus",
+        "schema": "string"
+      },
+      {
+        "@type": "Command",
+        "name": "reboot",
+        "request": {
+          "name": "delay",
+          "schema": "integer"
+        }
+      }
+    ]
+  }
+  
