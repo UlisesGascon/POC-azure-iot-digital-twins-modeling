@@ -1,0 +1,20 @@
+{
+  "name": "poc-azure-iot-digital-twins-modeling",
+  "version": "1.0.0",
+  "description": "Unlock the Power of IoT with Azure Digital Twin Modeling",
+  "main": "index.js",
+  "private":true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UlisesGascon/POC-azure-iot-digital-twins-modeling.git"
+  },
+  "author": "Ulises Gascon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UlisesGascon/POC-azure-iot-digital-twins-modeling/issues"
+  },
+  "homepage": "https://github.com/UlisesGascon/POC-azure-iot-digital-twins-modeling#readme"
+}
