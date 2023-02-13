@@ -22,11 +22,7 @@ This proof of concept uses some components from the [Digital Twins Definition La
 
 ### :tv: Tutorial
 
-
-__soon__
-
-
-
+[![Youtube promotional banner](.github/img/banner.png)](https://www.youtube.com/watch?v=Me7IAAT_mH4)
 
 ### :tada: Features 
 
